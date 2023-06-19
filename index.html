@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shapes</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Shapes</h1>
+  <div id="shape-selector">
+    <label for="shape-select">Select a Shape:</label>
+    <select id="shape-select">
+      <option value="" selected disabled>Select a shape</option>
+      <option value="rectangle">Rectangle</option>
+      <option value="circle">Circle</option>
+      <option value="square">Square</option>
+      <option value="triangle">Triangle</option>
+    </select>
+  </div>
+
+  <div class="container">
+    <h1 id="shape-title"></h1>
+    <div id="input-container">
+      <input type="number" id="input1" placeholder="Length" />
+      <input type="number" id="input2" placeholder="Width" />
+    </div>
+    <button id="calculate-btn">Calculate</button>
+    <p id="area-result"></p>
+  </div>
+  
+
+  <script src="index.js"></script>
+</body>
+</html>
